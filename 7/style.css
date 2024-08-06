@@ -1,0 +1,89 @@
+body{
+  overflow-x: hidden;
+}
+
+#home{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(./2305.q892.025.S.m009.c10.online\ cloth\ store\ flat\ collage.jpg);
+  background-size: 1600px 600px;
+  min-height: 600px;
+  }
+  .info{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding-top: 13rem;
+  }
+  .info h1{
+    font-size: 6rem;
+    font-family: fantasy;
+    }
+  .info h2{
+    font-size: 2.5rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-bottom: 20px;
+  }
+#home button{
+  font-size: 1.5rem;
+  background-color: rgb(219, 57, 90);
+  color: white;
+  border-radius: 10px;
+}
+/*fresh arrivals*/
+#fresh-arrivals{
+  min-height: 600px; 
+  max-height: 2000px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #c9c4c5, #ffffff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#fresh-arrivals h1{
+  padding: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(30, 30, 30);
+}
+#slider {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#slider img{
+  column-span: 3;
+}
+.slide{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+.slide:hover{
+  transform: scale(1.1);
+}
+.slide img{
+  padding:5px;
+  width: 245px;
+  height: 318px;
+  align-items: center;
+  justify-content: center;
+}
